@@ -4,7 +4,7 @@ const main = async (asd: string) => {
   console.log(asd);
 
   // Launch the browser
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch({ headless: false });
 
   // Create a page
   const page = await browser.newPage();
